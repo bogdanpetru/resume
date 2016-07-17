@@ -27,7 +27,7 @@ export default {
         {"name": "reactive programming (rxjs)"},
         {"name": "nodejs, electron, react-native"},
       ]
-    }
+    },
     "profiles": [{
       "network": "Github",
       "username": "bogdanpetru",
@@ -41,7 +41,7 @@ export default {
       "username": "bogdanpetru",
       "url": "https://www.goodreads.com/user/show/4929538-bogdan-pintican"
     }, {
-      "network": "linkedin",
+      "network": "Linkedin",
       "username": "bogdanpetru",
       "url": "https://ro.linkedin.com/in/bogdan-petru-pintican-90749a42"
     }]
@@ -71,7 +71,7 @@ export default {
       I've build 25-30, responsive first, websites using wordpress, woocommerce, magento.
     `,
     "meta": "Wordpress, Magento, Javacript, HTML5, CSS3, jQuery, php"
-  } {
+  }, {
     "company": "Freelance",
     "position": "Front-End Developer",
     "website": "-",
@@ -79,7 +79,7 @@ export default {
     "endDate": "2015-01-15",
     "summary": `I've developed static interfaces, consisting of html, css, javascript, jquery(+various plugins) and php (templating).`,
     "meta": "HTML5, CSS3, jQuery, php"
-  }]
+  }],
   "skills": [{
     "name": "reactjs",
   }, {

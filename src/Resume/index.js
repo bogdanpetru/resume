@@ -31,6 +31,49 @@ const Email = ({ email }) => <span
     {email}
   </span>
 
+
+const Icon = ({ name }) => {
+  return <span>{name}</span>
+}
+
+const Profiles = ({ profiles }) => <div className={rootBEM({ child: 'profiles' })}>
+    {profiles.map(profile => <Profile key={profile.network} {...profile} />)}
+  </div>
+
+const Profile = ({ network, username, url, iconName }) => {
+  return <a href={url} target="_blank">
+    <Icon name={iconName} />
+    {network}
+  </a>
+}
+
+/**
+ * TODO calculate duration
+ */
+const Experience = ({
+  company,
+  startDate,
+  endDate,
+  summary
+}) => <div className={rootBEM({ child: "experience" })}>
+    <h3>
+      {company}
+    </h3>
+    <div className={rootBEM({ child: "experience-date"})}>
+      <span className={rootBEM({ child: "experience-start-date"})}>{startDate}</span> -
+      <span className={rootBEM({ child: "experience-end-date"})}>{endDate}</span>
+    </div>
+    <div className={rootBEM({ child: "experience-end-date"})}>{summary}</div>
+</div>
+
+const Work = ({ experiences, title }) => <div className={rootBEM({ child: 'work'})}>
+    <h2 className={rootBEM({ child: "work-title"})}>{title}</h2>
+    <div className={rootBEM({ child: "work-body" })}>
+      {experiences.map(Experience)}
+    </div>
+  </div>
+
+
 class Resume extends Component {
   render() {
     const {
@@ -42,8 +85,10 @@ class Resume extends Component {
         name,
         label,
         picture,
-        email
-      }
+        email,
+        profiles,
+      },
+      work
     } = data;
 
     console.log(email)
@@ -52,6 +97,8 @@ class Resume extends Component {
       <Name name={name} />
       <Label label={label} />
       <Email label={email} />
+      <Profiles profiles={profiles} />
+      <Work title={"Professional Experience"} experiences={work} />
     </div>
   }
 }
