@@ -1,93 +1,113 @@
 export default {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Bogdan Petru Pintican",
+    "label": "Front-end Developer",
     "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "email": "bogdanpintican@gmail.com",
+    "phone": "(+40) 743 285 200",
+    "website": "http://bogdanpetru.eu",
+    "summary": `
+      I am a self-thought front-end developer, with a special interest for functional programming and building stuff with reactjs.
+      I come a natural sciences background, and I migrated to web development/computer science as it made more sence.
+      I feel that I found what I want to do, I am studying, reading articles/books watching videos/conferences, fallowing developers I find
+      interesting (twitter/github).
+    `,
+    "introduction": "I am looking to join a *team* of skilled and passioned individuals, in a company that has culture and values.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Cluj-Napoca",
+      "countryCode": "RO",
+      "region": "Cluj"
     },
+    "other": {
+      "title": "My main focus in the front-end development, but I dabble in other technologies and languages as well eg",
+      "items": [
+        {"name": "C"},
+        {"name": "arduino"},
+        {"name": "python"},
+        {"name": "reactive programming (rxjs)"},
+        {"name": "nodejs, electron, react-native"},
+      ]
+    }
     "profiles": [{
+      "network": "Github",
+      "username": "bogdanpetru",
+      "url": "https://github.com/bogdanpetru"
+    }, {
       "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
+      "username": "spikebogdan",
+      "url": "http://twitter.com/spikebogdan"
+    }, {
+      "network": "GoodReads",
+      "username": "bogdanpetru",
+      "url": "https://www.goodreads.com/user/show/4929538-bogdan-pintican"
+    }, {
+      "network": "linkedin",
+      "username": "bogdanpetru",
+      "url": "https://ro.linkedin.com/in/bogdan-petru-pintican-90749a42"
     }]
   },
   "work": [{
-    "company": "Company",
-    "position": "President",
-    "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
+    "company": "Zippy UI",
+    "position": "Front-End Developer, Team Lead",
+    "website": "http://zippyui.com",
+    "startDate": "2015-12-02",
+    "endDate": "prezent",
+    "summary": `
+      I've build web applications and open source ui components using reactjs and redux.
+      I've done code reviews, mentored junior developers, lead small technical team, and participated in regular meetings where we discussed
+      requirements.
+    `,
     "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
+      "We have build open source react compoents."
+    ],
+    "meta": "ReactJs, Redux, webpack, babel, es2015"
+  }, {
+    "company": "Netlogiq",
+    "position": "Front-End Developer",
+    "website": "http://netlogiq.com",
+    "startDate": "2015-01-28",
+    "endDate": "2015-11-15",
+    "summary": `
+      I've build 25-30, responsive first, websites using wordpress, woocommerce, magento.
+    `,
+    "meta": "Wordpress, Magento, Javacript, HTML5, CSS3, jQuery, php"
+  } {
+    "company": "Freelance",
+    "position": "Front-End Developer",
+    "website": "-",
+    "startDate": "2014-05-01",
+    "endDate": "2015-01-15",
+    "summary": `I've developed static interfaces, consisting of html, css, javascript, jquery(+various plugins) and php (templating).`,
+    "meta": "HTML5, CSS3, jQuery, php"
+  }]
   "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
+    "name": "reactjs",
+  }, {
+    "name": "javascript",
+  }, {
+    "name": "redux",
+  },
+  {
+    "name": "es2015",
+  }, {
+    "name": "CSS3"
+  }, {
+    "name": "HTML5"
   }],
   "languages": [{
     "name": "English",
-    "level": "Native speaker"
+    "level": "C1"
+  }, {
+    "name": "German",
+    "level": "A1"
   }],
   "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
+    "name": "functional programming"
+  }, {
+    "name": "new languages (clojure, java - android, swift, elm)"
+  }, {
+    "name": "mobile development"
+  }, {
+    "name": "design patterns and algoritms"
   }]
 }
