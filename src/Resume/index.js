@@ -73,7 +73,20 @@ const Work = ({ experiences, title }) => <div className={rootBEM({ child: 'work'
     </div>
   </div>
 
-
+const Other = ({ title, items }) => <div className={rootBEM({ child: 'other' })}>
+  <h2 className={rootBEM({ child: "other-title"})}>
+    {title}
+  </h2>
+  <div className={rootBEM({ child: "other-items-wrapper" })}>
+    {
+      items.map(({ name }) => <div 
+          className={rootBEM({ child: 'other-item' })}>
+          {name}
+        </div>
+      )
+    }
+  </div>
+</div>
 class Resume extends Component {
   render() {
     const {
@@ -86,9 +99,10 @@ class Resume extends Component {
         label,
         picture,
         email,
-        profiles,
       },
-      work
+      profiles,
+      work,
+      other
     } = data;
 
     console.log(email)
@@ -99,6 +113,7 @@ class Resume extends Component {
       <Email label={email} />
       <Profiles profiles={profiles} />
       <Work title={"Professional Experience"} experiences={work} />
+      <Other title={other.title} items={other.items} /> 
     </div>
   }
 }
