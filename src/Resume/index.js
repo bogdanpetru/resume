@@ -8,6 +8,7 @@ import Profiles from './Profiles'
 import Work from './Work'
 import Other from './Other'
 import Header from './Header'
+import style from './style.less'
 
 const rootBEM = bemConstructor('react-resume')
 
