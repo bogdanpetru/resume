@@ -7,6 +7,7 @@ import Icon from './Icon'
 import Profiles from './Profiles'
 import Work from './Work'
 import Other from './Other'
+import Header from './Header'
 
 const rootBEM = bemConstructor('react-resume')
 
@@ -31,10 +32,14 @@ class Resume extends Component {
     console.log(email)
 
     return <div className="react-resume">
-      <Name name={name} />
-      <Label label={label} />
-      <Email label={email} />
-      <Profiles profiles={profiles} />
+
+      <Header>
+        <Name name={name} />
+        <Label label={label} />
+        <Email label={email} />
+        <Profiles profiles={profiles} />
+      </Header>
+      
       <Work title={"Professional Experience"} experiences={work} />
       <Other title={other.title} items={other.items} /> 
     </div>

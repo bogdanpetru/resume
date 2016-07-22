@@ -10,6 +10,7 @@ const Other = ({ title, items }) => <div className={rootBEM({ child: 'other' })}
   <div className={rootBEM({ child: "other-items-wrapper" })}>
     {
       items.map(({ name }) => <div 
+          key={name}
           className={rootBEM({ child: 'other-item' })}>
           {name}
         </div>
