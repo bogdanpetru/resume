@@ -1,6 +1,5 @@
 import React from 'react'
 import Experience from './Experience'
-const rootBEM = bemConstructor('react-resume')
 
 const Work = ({ experiences, title }) => <div className="work">
 	<h2 className="work-title">{title}</h2>

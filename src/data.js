@@ -6,12 +6,11 @@ export default {
         "email": "bogdanpintican@gmail.com",
         "phone": "(+40) 743 285 200",
         "website": "http://bogdanpetru.eu",
-        "summary": `
-            I am a self-thought front-end developer, with a special interest for functional programming and building stuff with reactjs.
-            I come a natural sciences background, and I migrated to web development/computer science as it made more sence.
-            I feel that I found what I want to do, I am studying, reading articles/books watching videos/conferences, fallowing developers I find
-            interesting (twitter/github).
-          `,
+        "about": `
+I am a self-thought front-end developer, with a special interest for functional programming and building stuff with reactjs. \n
+I come a natural sciences background, and I migrated to web development/computer science as it made more sence. \n
+I feel that I found what I want to do, I am studying, reading articles/books watching videos/conferences, fallowing developers I find
+interesting (twitter/github).`,
         "introduction": "I am looking to join a *team* of skilled and passioned individuals, in a company that has culture and values.",
         "location": {
             "city": "Cluj-Napoca",

@@ -8,6 +8,7 @@ import Profiles from './Profiles'
 import Work from './Work'
 import Other from './Other'
 import Header from './Header'
+import About from './About'
 import style from './style.less'
 
 class Resume extends Component {
@@ -22,6 +23,7 @@ class Resume extends Component {
         label,
         picture,
         email,
+        about
       },
       profiles,
       work,
@@ -30,7 +32,7 @@ class Resume extends Component {
 
     console.log(email)
 
-    return <div className="react-resume">
+    return <div className="resume">
 
       <Header>
         <Name name={name} />
@@ -39,8 +41,15 @@ class Resume extends Component {
         <Profiles profiles={profiles} />
       </Header>
       
-      <Work title={"Professional Experience"} experiences={work} />
-      <Other title={other.title} items={other.items} /> 
+      <div className="content">
+        <div className="left-column">
+          <About about={about} />
+        </div>
+        <div className="right-column">
+          <Work title={"Professional Experience"} experiences={work} />
+          <Other title={other.title} items={other.items} /> 
+        </div>
+      </div>
     </div>
   }
 }
