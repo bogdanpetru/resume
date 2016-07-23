@@ -1,9 +1,6 @@
 import React from 'react'
-import bemConstructor from './bemConstructor'
 
-const rootBEM = bemConstructor('react-resume')
-
-const Name = ({ name }) => <h1 className = { rootBEM({ child:'name' }) }> 
+const Name = ({ name }) => <h1 className="name"> 
     {name} 
 </h1>
 

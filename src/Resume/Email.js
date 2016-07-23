@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
-import bemConstructor from './bemConstructor'
-
-const rootBEM = bemConstructor('react-resume')
-
 
 const Email = ({ email }) => <span
-	className={rootBEM({ child: 'email' })}>
+	className="email">
 	{email}
 </span>
 

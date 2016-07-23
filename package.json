@@ -1,7 +1,7 @@
 {
   "name": "react-resume",
   "version": "1.0.0",
-  "description": "Simple, theamable react resume",
+  "description": "Simple react resume",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"

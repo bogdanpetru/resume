@@ -1,17 +1,14 @@
 import React from 'react'
-import bemConstructor from './bemConstructor'
 
-const rootBEM = bemConstructor('react-resume')
-
-const Other = ({ title, items }) => <div className={rootBEM({ child: 'other' })}>
-  <h2 className={rootBEM({ child: "other-title"})}>
+const Other = ({ title, items }) => <div className='other'>
+  <h2 className="other-title">
     {title}
   </h2>
-  <div className={rootBEM({ child: "other-items-wrapper" })}>
+  <div className="other-items-wrapper">
     {
       items.map(({ name }) => <div 
           key={name}
-          className={rootBEM({ child: 'other-item' })}>
+          className='other-item'>
           {name}
         </div>
       )

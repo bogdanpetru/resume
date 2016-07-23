@@ -1,10 +1,7 @@
 import React from 'react'
-import bemConstructor from './bemConstructor'
-
-const rootBEM = bemConstructor('react-resume')
 
 const Label = ({ label }) => <h2
-  className={rootBEM({ child: 'label' })}>
+  className="label">
   {label}
 </h2>
 

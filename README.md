@@ -14,9 +14,7 @@ Uses https://jsonresume.org/schema/ schema.
 ```
 
 ### TODO
-- [ ] add something on screen
-- [ ] basic structure
-- [ ] structure mus consume json resume schema
+- [x] add something on screen
+- [x] basic structure
+- [x] structure mus consume json resume schema
 - [ ] incremental documantation
-- [ ] must be easy theamable
-- [ ] write tests
