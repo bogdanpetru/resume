@@ -92,6 +92,14 @@ export default {
         "endDate": "2015-01-15",
         "summary": `I've developed static interfaces, consisting of html, css, javascript, jquery(+various plugins) and php (templating).`,
         "meta": "HTML5, CSS3, jQuery, php"
+    }, {
+        "company": "Support 4 Youth Development",
+        "position": "Project Manager, Team Leader, Executive Member, Mentor",
+        "website": "-",
+        "startDate": "2011-03",
+        "endDate": "2013-02",
+        "summary": `I've participated in various international projects, holding roles as Volunteer, Support, Team Leader, Mentor`,
+        "meta": "International, Youth development, Communication"
     }],
     "skills": {
       title: 'Skills',
