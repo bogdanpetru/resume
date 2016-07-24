@@ -55,14 +55,14 @@ class Resume extends Component {
         </Container>
       </Header>
       <div className="content">
+        <About about={about} />
+        <Work title={"Professional Experience"} experiences={work} />
         <Container>
           <LeftColumn>
-            <About about={about} />
             <SimpleBox title={skills.title} items={skills.items} /> 
-            <SimpleBox title={other.title} items={other.items} /> 
           </LeftColumn>
           <RightColumn>
-            <Work title={"Professional Experience"} experiences={work} />
+            <SimpleBox title={other.title} items={other.items} /> 
           </RightColumn>
         </Container>
       </div>
