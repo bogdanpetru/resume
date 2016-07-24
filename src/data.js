@@ -10,7 +10,7 @@ export default {
       'I am a self-thought front-end developer, with a special interest in functional programming and building apps with reactjs.',
       'I come from a natural sciences background, I migrated to web development/computer science as it made more sense.',
     ],
-    "introduction": "I am looking to join a team of skilled and passioned individuals, in a medium sized company, that has it's own product or has interesting projects.",
+    "introduction": "I am looking to join a team of skilled and passionate individuals, in a medium sized company, that has it's own product or has interesting projects.",
     "location": {
       "city": "Cluj-Napoca",
       "countryCode": "RO",
