@@ -9,14 +9,16 @@ const Experience = ({
   endDate,
   summary
 }) => <div className="experience">
+  <header className="experience__header">
     <h3>
       {company}
     </h3>
     <div className="experience-date">
-      <span className="experience-start-date">{startDate}</span> -
-      <span className="experience-end-date">{endDate}</span>
+      <span className="date experience__start-date">{startDate}</span> -
+      <span className="date experience__end-date">{endDate}</span>
     </div>
-    <div className="experience-end-date">{summary}</div>
+  </header>
+  <div className="summary">{summary}</div>
 </div>
 
 export default Experience

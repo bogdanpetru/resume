@@ -10,6 +10,7 @@ import Other from './Other'
 import Header from './Header'
 import About from './About'
 import style from './style.less'
+import { LeftColumn, RightColumn } from './grid'
 
 class Resume extends Component {
   render() {
@@ -35,20 +36,24 @@ class Resume extends Component {
     return <div className="resume">
 
       <Header>
-        <Name name={name} />
-        <Label label={label} />
-        <Email label={email} />
-        <Profiles profiles={profiles} />
+        <LeftColumn>
+          <Name name={name} />
+        </LeftColumn>
+        <RightColumn>
+          <Label label={label} />
+          <Email label={email} />
+          <Profiles profiles={profiles} />
+        </RightColumn>
       </Header>
       
       <div className="content">
-        <div className="left-column">
+        <LeftColumn>
           <About about={about} />
-        </div>
-        <div className="right-column">
+        </LeftColumn>
+        <RightColumn>
           <Work title={"Professional Experience"} experiences={work} />
           <Other title={other.title} items={other.items} /> 
-        </div>
+        </RightColumn>
       </div>
     </div>
   }

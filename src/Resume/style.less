@@ -1,4 +1,8 @@
+@column-gap: 20;
 
+* {
+	box-sizing: border-box;
+}
 
 body {
 	margin: 0;
@@ -6,10 +10,22 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+	font-size: 42px;
+}
+
 h2 {
-	font-size: 30px;
+	font-size: 26px;
 	border-bottom: 3px solid #000;	
 	padding-bottom: 3px;
+}
+
+.left-column, .right-column {
+	padding: 0 ~"@{column-gap}px";
+}
+
+.left-column {
+	flex: 0 0 37.5%;
 }
 
 .resume {
@@ -19,11 +35,28 @@ h2 {
 }
 
 .header {
+	position: relative;
 	display: flex;
+	padding-bottom: 20px;
+	margin: 0 ~"-@{column-gap}px";
+
+	&:before {
+		content: "";
+		position: absolute;
+		left: ~"@{column-gap}px";
+		right: ~"@{column-gap}px";
+		bottom: 0;
+		height: 0;
+		border-bottom: 3px solid #e8e8e8;
+	}
+
+	.right-column {
+		display: flex;
+	}
+
 
 	h1 {
-		max-width: 250px;
-		font-size: 52px;
+		flex: 0 0 355px;
 		margin: 0;
 		line-height: 1;
 	}
@@ -33,20 +66,36 @@ h2 {
 		margin: 0;
 		font-size: 24px;
 	}
+
+	.label {
+		flex: 0 0 270px;
+		display: flex;
+		align-items: flex-end;
+	}
+
 }
 
 .content {
 	display: flex;
-	margin: 0 -40px;
+	margin: 0 ~"-@{column-gap}px";
+}
 
-	.left-column, .right-column {
-		padding: 0 40px;
+.experience {
+	h3 {
+		font-size: 20px;
+		margin-bottom: 0;
 	}
 
-	.left-column {
-		max-width: 274px;
+	header {
+		margin-bottom: 10px;
+	}
+
+	.date {
+		font-size: 14px;
+		color: #333;
 	}
 }
+
 
 .about {
 	white-space: pre-wrap;
