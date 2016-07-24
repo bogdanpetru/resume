@@ -2,14 +2,16 @@ import React, { Component } from 'react'
 import bemConstructor from './bemConstructor'
 import Name from './Name'
 import Email from './Email'
+import Introduction from './Introduction'
 import Label from './Label'
 import Icon from './Icon'
 import Profiles from './Profiles'
 import Work from './Work'
-import Other from './Other'
+import SimpleBox from './SimpleBox'
 import Header from './Header'
 import About from './About'
-import { LeftColumn, RightColumn } from './grid'
+import Space from './Space'
+import { LeftColumn, RightColumn, Container } from './grid'
 
 import 'font-awesome/css/font-awesome.css';
 import style from './style.less'
@@ -26,11 +28,13 @@ class Resume extends Component {
         label,
         picture,
         email,
-        about
+        about,
+        introduction
       },
       profiles,
       work,
-      other
+      other,
+      skills
     } = data;
 
     console.log(email)
@@ -38,24 +42,29 @@ class Resume extends Component {
     return <div className="resume">
 
       <Header>
-        <LeftColumn>
-          <Name name={name} />
-        </LeftColumn>
-        <RightColumn>
-          <Label label={label} />
-          <Email label={email} />
-          <Profiles profiles={profiles} />
-        </RightColumn>
+        <Container>
+          <LeftColumn>
+            <Name name={name} />
+            <Label label={label} />
+            <Introduction introduction={introduction} />
+          </LeftColumn>
+          <RightColumn>
+            <Space />
+            <Profiles profiles={profiles} />
+          </RightColumn>
+        </Container>
       </Header>
-      
       <div className="content">
-        <LeftColumn>
-          <About about={about} />
-        </LeftColumn>
-        <RightColumn>
-          <Work title={"Professional Experience"} experiences={work} />
-          <Other title={other.title} items={other.items} /> 
-        </RightColumn>
+        <Container>
+          <LeftColumn>
+            <About about={about} />
+            <SimpleBox title={skills.title} items={skills.items} /> 
+            <SimpleBox title={other.title} items={other.items} /> 
+          </LeftColumn>
+          <RightColumn>
+            <Work title={"Professional Experience"} experiences={work} />
+          </RightColumn>
+        </Container>
       </div>
     </div>
   }

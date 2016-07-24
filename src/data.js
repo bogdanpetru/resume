@@ -6,12 +6,12 @@ export default {
         "email": "bogdanpintican@gmail.com",
         "phone": "(+40) 743 285 200",
         "website": "http://bogdanpetru.eu",
-        "about": `
-I am a self-thought front-end developer, with a special interest for functional programming and building stuff with reactjs. \n
-I come a natural sciences background, and I migrated to web development/computer science as it made more sence. \n
-I feel that I found what I want to do, I am studying, reading articles/books watching videos/conferences, fallowing developers I find
-interesting (twitter/github).`,
-        "introduction": "I am looking to join a *team* of skilled and passioned individuals, in a company that has culture and values.",
+        "about": [
+          'I am a self-thought front-end developer, with a special interest for functional programming and building apps with reactjs.',
+          'I come a natural sciences background, I migrated to web development/computer science as it made more sence.',
+          'I am always am studying, reading articles/books, watching videos/conferences, fallowing developers I find interesting (twitter/github).'
+        ],
+        "introduction": "I am looking to join a team of skilled and passioned individuals, in a company that has culture and values.",
         "location": {
             "city": "Cluj-Napoca",
             "countryCode": "RO",
@@ -19,6 +19,11 @@ interesting (twitter/github).`,
         },
     },
     "profiles": [{
+        "network": "bogdanpintican@gmail.com",
+        "icon": "envelope",
+        "username": "bogdanpintican",
+        "url": "mailto:bogdanpintican@gmail.com"
+    }, {
         "network": "Github",
         "icon": "github",
         "username": "bogdanpetru",
@@ -40,7 +45,7 @@ interesting (twitter/github).`,
         "url": "https://ro.linkedin.com/in/bogdan-petru-pintican-90749a42"
     }],
     "other": {
-        "title": "My main focus in the front-end development, but I dabble in other technologies and languages as well eg",
+        "title": "Other Interests",
         "items": [
             { "name": "C" },
             { "name": "arduino" },
@@ -83,7 +88,9 @@ interesting (twitter/github).`,
         "summary": `I've developed static interfaces, consisting of html, css, javascript, jquery(+various plugins) and php (templating).`,
         "meta": "HTML5, CSS3, jQuery, php"
     }],
-    "skills": [{
+    "skills": {
+      title: 'Skills',
+      items: [{
         "name": "reactjs",
     }, {
         "name": "javascript",
@@ -95,15 +102,21 @@ interesting (twitter/github).`,
         "name": "CSS3"
     }, {
         "name": "HTML5"
-    }],
-    "languages": [{
+    }]
+    },
+    "languages": {
+      title: "Languages",
+      items: [{
         "name": "English",
         "level": "C1"
     }, {
         "name": "German",
         "level": "A1"
-    }],
-    "interests": [{
+    }]
+    },
+    "interests": {
+      title: "Interests",
+      items:  [{
         "name": "functional programming"
     }, {
         "name": "new languages (clojure, java - android, swift, elm)"
@@ -112,4 +125,5 @@ interesting (twitter/github).`,
     }, {
         "name": "design patterns and algoritms"
     }]
+    }
 }
