@@ -9,7 +9,6 @@ export default {
         "about": [
           'I am a self-thought front-end developer, with a special interest for functional programming and building apps with reactjs.',
           'I come a natural sciences background, I migrated to web development/computer science as it made more sence.',
-          'I am always am studying, reading articles/books, watching videos/conferences, fallowing developers I find interesting (twitter/github).'
         ],
         "introduction": "I am looking to join a team of skilled and passioned individuals, in a company that has culture and values.",
         "location": {
@@ -113,10 +112,10 @@ export default {
     "languages": {
       title: "Languages",
       items: [{
-        "name": "English",
+        "name": "English - C1",
         "level": "C1"
     }, {
-        "name": "German",
+        "name": "German - A1",
         "level": "A1"
     }]
     },
