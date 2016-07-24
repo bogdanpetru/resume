@@ -12,8 +12,13 @@ const Container = ({ children }) => {
   return <div className="container" children={children} />
 }
 
+const Column = ({ children }) => {
+  return <div className="column" children={children} />
+}
+
 export {
 	LeftColumn,
 	RightColumn,
-  Container
+  Container,
+  Column,
 }
