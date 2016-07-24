@@ -97,21 +97,23 @@ h2 {
     margin-bottom: 10px;
   }
 
-  .profiles {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 230px;
+}
 
-    .profile {
-      display: flex;
-      align-items: center;
+.profiles {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 230px;
+}
 
-      color: #888;
-      text-decoration: none;
-    }
-    .fa {
-      margin-right: 5px;
-    }
+.profile {
+  display: flex;
+  align-items: center;
+
+  color: #888;
+  text-decoration: none;
+
+  .fa {
+    margin-right: 5px;
   }
 }
 
@@ -147,4 +149,19 @@ h2 {
 
 .about {
   white-space: pre-wrap;
+}
+
+
+// Print
+.hideWeb {
+  display: none;
+}
+
+@media print {
+ .profile {
+   display: none;
+ }
+  .showPrint {
+    display: block;
+  }
 }

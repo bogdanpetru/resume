@@ -22,7 +22,13 @@ export default {
         "network": "bogdanpintican@gmail.com",
         "icon": "envelope",
         "username": "bogdanpintican",
-        "url": "mailto:bogdanpintican@gmail.com"
+        "url": "mailto:bogdanpintican@gmail.com",
+        "showPrint": true,
+    }, {
+        "network": "(+40) 743 285 200",
+        "icon": "phone",
+        "hideWeb": true,
+        "showPrint": true,
     }, {
         "network": "Github",
         "icon": "github",
