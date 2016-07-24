@@ -9,8 +9,10 @@ import Work from './Work'
 import Other from './Other'
 import Header from './Header'
 import About from './About'
-import style from './style.less'
 import { LeftColumn, RightColumn } from './grid'
+
+import 'font-awesome/css/font-awesome.css';
+import style from './style.less'
 
 class Resume extends Component {
   render() {

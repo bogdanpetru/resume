@@ -20,18 +20,22 @@ interesting (twitter/github).`,
     },
     "profiles": [{
         "network": "Github",
+        "icon": "github",
         "username": "bogdanpetru",
         "url": "https://github.com/bogdanpetru"
     }, {
         "network": "Twitter",
+        "icon": "twitter",
         "username": "spikebogdan",
         "url": "http://twitter.com/spikebogdan"
     }, {
         "network": "GoodReads",
+        "icon": "book",
         "username": "bogdanpetru",
         "url": "https://www.goodreads.com/user/show/4929538-bogdan-pintican"
     }, {
         "network": "Linkedin",
+        "icon": "linkedin-square",
         "username": "bogdanpetru",
         "url": "https://ro.linkedin.com/in/bogdan-petru-pintican-90749a42"
     }],
