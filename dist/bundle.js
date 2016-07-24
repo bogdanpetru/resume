@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "9e67e4c5444ebac615be"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f2f88d73af1e0ad1c27e"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -21714,7 +21714,7 @@
 	    "phone": "(+40) 743 285 200",
 	    "website": "http://bogdanpetru.eu",
 	    "about": ['I am a self-thought front-end developer, with a special interest in functional programming and building apps with reactjs.', 'I come from a natural sciences background, I migrated to web development/computer science as it made more sense.'],
-	    "introduction": "I am looking to join a team of skilled and passioned individuals, in a in a medium sized company, preferably it has it's own product or has interesting projects..",
+	    "introduction": "I am looking to join a team of skilled and passioned individuals, in a medium sized company, that has it's own product or has interesting projects.",
 	    "location": {
 	      "city": "Cluj-Napoca",
 	      "countryCode": "RO",
