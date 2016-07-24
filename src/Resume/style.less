@@ -1,12 +1,13 @@
 
 @column-gap: 20;
+@base-color: #333;
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  color: #333;
+  color: @base-color;
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
@@ -19,7 +20,7 @@ h1 {
 h2 {
   font-size: 25px;
   margin-bottom: 20px;
-  border-bottom: 3px solid #333;	
+  border-bottom: 3px solid @base-color;	
   padding-bottom: 3px;
 }
 
@@ -37,7 +38,7 @@ h2 {
 }
 
 .left-column {
-  flex: 0 0 37.5%;
+  flex: 0 0 35%;
 }
 
 .column {
@@ -109,8 +110,10 @@ h2 {
 .profile {
   display: flex;
   align-items: center;
+  // font-size: 14px;
 
-  color: #888;
+  margin-bottom: 4px;
+  color: @base-color;
   text-decoration: none;
 
   .fa {

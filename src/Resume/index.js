@@ -11,6 +11,7 @@ import SimpleBox from './SimpleBox'
 import Header from './Header'
 import About from './About'
 import Space from './Space'
+import Education from './Education'
 import { LeftColumn, RightColumn, Container, Column } from './grid'
 
 import 'font-awesome/css/font-awesome.css';
@@ -36,10 +37,9 @@ class Resume extends Component {
       other,
       skills,
       languages,
-      interests
+      interests,
+      education
     } = data;
-
-    console.log(email)
 
     return <div className="resume">
 
@@ -61,7 +61,7 @@ class Resume extends Component {
           <LeftColumn>
             <About about={about} />
             <SimpleBox title={skills.title} items={skills.items} /> 
-            <SimpleBox title={interests.title} items={interests.items} /> 
+            <Education {...education} />
           </LeftColumn>
           <RightColumn>
             <Work title={"Professional Experience"} experiences={work} />
@@ -70,7 +70,7 @@ class Resume extends Component {
                 <SimpleBox title={languages.title} items={languages.items} /> 
               </Column>
               <Column>
-                <SimpleBox title={other.title} items={other.items} /> 
+                <SimpleBox title={interests.title} items={interests.items} /> 
               </Column>
             </Container>
           </RightColumn>
