@@ -69,7 +69,7 @@ export default {
       "website": "http://zippyui.com",
       "startDate": "2015-12-02",
       "endDate": "prezent",
-      "summary": "I've built web applications and open source UI components using reactjs and redux. I've done code reviews, mentored junior developers, lead a small technical team, and participated in regular meetings where we discussed requirements.",
+      "summary": "I've built web applications and open source UI components using reactjs and redux. I've done code reviews, mentored junior developers, lead a small technical team.",
       "highlights": [
         "We have build open source react compoents."
       ],
