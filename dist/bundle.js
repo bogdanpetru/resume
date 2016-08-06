@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3f2ec07e48dff601e0c3"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "475e3441621b07700296"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -22418,7 +22418,7 @@
 	          },
 	          startDate
 	        ),
-	        " adsadas",
+	        " - ",
 	        _react2.default.createElement(
 	          "span",
 	          { className: "date experience__end-date", __self: undefined

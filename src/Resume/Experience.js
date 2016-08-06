@@ -14,8 +14,7 @@ const Experience = ({
       {company}
     </h3>
     <div className="experience-date">
-      <span className="date experience__start-date">{startDate}</span> -
-      <span className="date experience__end-date">{endDate}</span>
+      <span className="date experience__start-date">{startDate}</span> - <span className="date experience__end-date">{endDate}</span>
     </div>
   </header>
   <div className="summary">{summary}</div>
