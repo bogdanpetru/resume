@@ -68,7 +68,7 @@ export default {
       "position": "Front-End Developer, Team Lead",
       "website": "http://zippyui.com",
       "startDate": "2015-12-02",
-      "endDate": "prezent",
+      "endDate": "present",
       "summary": "I've built web applications and open source UI components using reactjs and redux. I've done code reviews, mentored junior developers, lead a small technical team.",
       "highlights": [
         "We have build open source react compoents."

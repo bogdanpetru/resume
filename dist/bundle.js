@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "122522af0e805fa3df6e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "3f2ec07e48dff601e0c3"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -21766,7 +21766,7 @@
 	    "position": "Front-End Developer, Team Lead",
 	    "website": "http://zippyui.com",
 	    "startDate": "2015-12-02",
-	    "endDate": "prezent",
+	    "endDate": "present",
 	    "summary": "I've built web applications and open source UI components using reactjs and redux. I've done code reviews, mentored junior developers, lead a small technical team.",
 	    "highlights": ["We have build open source react compoents."],
 	    "meta": "ReactJs, Redux, webpack, babel, es2015"
@@ -22418,7 +22418,7 @@
 	          },
 	          startDate
 	        ),
-	        " -",
+	        " adsadas",
 	        _react2.default.createElement(
 	          "span",
 	          { className: "date experience__end-date", __self: undefined
