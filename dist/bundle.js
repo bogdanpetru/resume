@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a133a2822a2524b3a84b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2900cec178381609343f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -22545,7 +22545,7 @@
 	    "email": "bogdanpintican@gmail.com",
 	    "phone": "(+40) 743 285 200",
 	    "website": "http://bogdanpetru.eu",
-	    "about": ['I am a self-thought javascript developer, with a special interest in functional programming and building apps with reactjs.', 'I come from a natural sciences background, I migrated to web development/computer science as it made more sense.'],
+	    "about": ['I am a self-thought javascript developer, with a special interest in functional programming and building apps with *reactjs*.', 'I come from a natural sciences background, I migrated to web development/computer science as it made more sense.'],
 	    "introduction": ["I am looking to join a team of skilled and passionate individuals, in a medium-sized company, that has it's own product or has interesting projects."],
 	    "location": {
 	      "city": "Cluj-Napoca",
@@ -22599,7 +22599,7 @@
 	    "website": "http://accesa.eu",
 	    "startDate": "2017-05-01",
 	    "endDate": "present",
-	    "summary": "\n      I've been part of 4 front-end projects, that used modern technologies like ReactJs, Angular 4, Webpack, Storybook, Jest, Typescript.\n      ",
+	    "summary": "\n      I've been part of 4 front-end projects, that used modern technologies like *ReactJs*, Angular 4, Webpack, Storybook, Jest, Typescript.\n      ",
 	    "highlights": ["We have build open source react compoents."],
 	    "meta": "ReactJs, Redux, webpack, babel, es2015"
 	  }, {
@@ -22608,7 +22608,7 @@
 	    // "website": "http://zippyui.com",
 	    "startDate": "2015-12-02",
 	    "endDate": "2017-05-01",
-	    "summary": "I've built web applications and open source UI components using reactjs and redux. I've done code reviews, mentored junior developers, lead a small technical team.",
+	    "summary": "I've built web applications and *open source UI components* using *reactjs* and *redux*. I've done code reviews, mentored junior developers, lead a small technical team.",
 	    "highlights": ["We have build open source react compoents."],
 	    "meta": "ReactJs, Redux, webpack, babel, es2015"
 	  }, {
@@ -23245,7 +23245,7 @@
 /* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -23254,6 +23254,10 @@
 	var _react = __webpack_require__(2);
 
 	var _react2 = _interopRequireDefault(_react);
+
+	var _parseText = __webpack_require__(192);
+
+	var _parseText2 = _interopRequireDefault(_parseText);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23266,37 +23270,33 @@
 	      endDate = _ref.endDate,
 	      summary = _ref.summary;
 	  return _react2.default.createElement(
-	    "div",
-	    { className: "experience" },
+	    'div',
+	    { className: 'experience' },
 	    _react2.default.createElement(
-	      "header",
-	      { className: "experience__header" },
+	      'header',
+	      { className: 'experience__header' },
 	      _react2.default.createElement(
-	        "h3",
+	        'h3',
 	        null,
 	        company
 	      ),
 	      _react2.default.createElement(
-	        "div",
-	        { className: "experience-date" },
+	        'div',
+	        { className: 'experience-date' },
 	        _react2.default.createElement(
-	          "span",
-	          { className: "date experience__start-date" },
+	          'span',
+	          { className: 'date experience__start-date' },
 	          startDate
 	        ),
-	        " - ",
+	        ' - ',
 	        _react2.default.createElement(
-	          "span",
-	          { className: "date experience__end-date" },
+	          'span',
+	          { className: 'date experience__end-date' },
 	          endDate
 	        )
 	      )
 	    ),
-	    _react2.default.createElement(
-	      "div",
-	      { className: "summary" },
-	      summary
-	    )
+	    _react2.default.createElement('div', { className: 'summary', children: (0, _parseText2.default)(summary) })
 	  );
 	};
 
@@ -23380,7 +23380,7 @@
 /* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 		value: true
@@ -23390,24 +23390,24 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _parseText = __webpack_require__(192);
+
+	var _parseText2 = _interopRequireDefault(_parseText);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var About = function About(_ref) {
 		var about = _ref.about;
 		return _react2.default.createElement(
-			"div",
-			{ className: "about" },
+			'div',
+			{ className: 'about' },
 			_react2.default.createElement(
-				"h2",
+				'h2',
 				null,
-				"About"
+				'About'
 			),
-			_react2.default.createElement("div", { className: "about-content", children: about.map(function (text) {
-					return _react2.default.createElement(
-						"p",
-						null,
-						text
-					);
+			_react2.default.createElement('div', { className: 'about-content', children: about.map(function (text) {
+					return _react2.default.createElement('p', { children: (0, _parseText2.default)(text) });
 				}) })
 		);
 	};

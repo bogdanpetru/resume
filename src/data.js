@@ -7,7 +7,7 @@ export default {
     "phone": "(+40) 743 285 200",
     "website": "http://bogdanpetru.eu",
     "about": [
-      'I am a self-thought javascript developer, with a special interest in functional programming and building apps with reactjs.',
+      'I am a self-thought javascript developer, with a special interest in functional programming and building apps with *reactjs*.',
       'I come from a natural sciences background, I migrated to web development/computer science as it made more sense.',
     ],
     "introduction": [
@@ -72,7 +72,7 @@ export default {
     "startDate": "2017-05-01",
     "endDate": "present",
     "summary": `
-      I've been part of 4 front-end projects, that used modern technologies like ReactJs, Angular 4, Webpack, Storybook, Jest, Typescript.
+      I've been part of 4 front-end projects, that used modern technologies like *ReactJs*, Angular 4, Webpack, Storybook, Jest, Typescript.
       `,
     "highlights": [
       "We have build open source react compoents."
@@ -84,7 +84,7 @@ export default {
     // "website": "http://zippyui.com",
     "startDate": "2015-12-02",
     "endDate": "2017-05-01",
-    "summary": "I've built web applications and open source UI components using reactjs and redux. I've done code reviews, mentored junior developers, lead a small technical team.",
+    "summary": "I've built web applications and *open source UI components* using *reactjs* and *redux*. I've done code reviews, mentored junior developers, lead a small technical team.",
     "highlights": [
       "We have build open source react compoents."
     ],
