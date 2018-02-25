@@ -69,7 +69,7 @@ export default {
     "company": "Accesa",
     "position": "Javascript Developer",
     "website": "http://accesa.eu",
-    "startDate": "2016-05-01",
+    "startDate": "2017-05-01",
     "endDate": "present",
     "summary": `
       I've been part of 4 front-end projects, that used modern technologies like ReactJs, Angular 4, Webpack, Storybook, Jest, Typescript.
@@ -83,7 +83,7 @@ export default {
     "position": "Javascript Developer, Team Lead",
     // "website": "http://zippyui.com",
     "startDate": "2015-12-02",
-    "endDate": "2016-05-01",
+    "endDate": "2017-05-01",
     "summary": "I've built web applications and open source UI components using reactjs and redux. I've done code reviews, mentored junior developers, lead a small technical team.",
     "highlights": [
       "We have build open source react compoents."
