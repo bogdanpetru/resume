@@ -4,16 +4,16 @@ const Other = ({ title, items }) => <div className='other'>
   <h2 className="simplebox-title">
     {title}
   </h2>
-  <div className="simplebox-items-wrapper">
+  <ul className="simplebox-items-wrapper">
     {
-      items.map(({ name }) => <div 
+      items.map(({ name }) => <li 
           key={name}
           className='other-item'>
           {name}
-        </div>
+        </li>
       )
     }
-  </div>
+  </ul>
 </div>
 
 export default Other

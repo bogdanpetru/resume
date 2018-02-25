@@ -4,8 +4,6 @@ Simple, themeable react resume.
 Uses https://jsonresume.org/schema/ schema.
 
 
-
-
 ```jsx
   <Resume
     data={jsonSchema}
